@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  YUNAppDelegate.h
 //  LightAppDelegate
 //
 //  Created by zhiyunyu on 2018/11/7.
@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@protocol YUNAppDelegateServiceProtocol <UIApplicationDelegate>
+- (NSString *)serviceName;
+@end
+
+@interface YUNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

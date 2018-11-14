@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28B0926C2192EF8C00DAC7F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0926B2192EF8C00DAC7F7 /* AppDelegate.m */; };
-		28B0926F2192EF8C00DAC7F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0926E2192EF8C00DAC7F7 /* ViewController.m */; };
-		28B092722192EF8C00DAC7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B092702192EF8C00DAC7F7 /* Main.storyboard */; };
+		28B0926C2192EF8C00DAC7F7 /* YUNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0926B2192EF8C00DAC7F7 /* YUNAppDelegate.m */; };
+		28B0926F2192EF8C00DAC7F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0926E2192EF8C00DAC7F7 /* RootViewController.m */; };
 		28B092742192EF8D00DAC7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B092732192EF8D00DAC7F7 /* Assets.xcassets */; };
 		28B092772192EF8D00DAC7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B092752192EF8D00DAC7F7 /* LaunchScreen.storyboard */; };
 		28B0927A2192EF8D00DAC7F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B092792192EF8D00DAC7F7 /* main.m */; };
+		28B092842193071300DAC7F7 /* YUNLaunchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B092832193071300DAC7F7 /* YUNLaunchService.m */; };
+		28B092872193079500DAC7F7 /* YUNAppStateServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B092862193079500DAC7F7 /* YUNAppStateServices.m */; };
+		28B0928A21930ED000DAC7F7 /* YUNAppDelegateServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0928921930ED000DAC7F7 /* YUNAppDelegateServicesManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28B092672192EF8C00DAC7F7 /* LightAppDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightAppDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B0926A2192EF8C00DAC7F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		28B0926B2192EF8C00DAC7F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28B0926D2192EF8C00DAC7F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28B0926E2192EF8C00DAC7F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28B092712192EF8C00DAC7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28B0926A2192EF8C00DAC7F7 /* YUNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNAppDelegate.h; sourceTree = "<group>"; };
+		28B0926B2192EF8C00DAC7F7 /* YUNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNAppDelegate.m; sourceTree = "<group>"; };
+		28B0926D2192EF8C00DAC7F7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28B0926E2192EF8C00DAC7F7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28B092732192EF8D00DAC7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B092762192EF8D00DAC7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B092782192EF8D00DAC7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B092792192EF8D00DAC7F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28B092822193071300DAC7F7 /* YUNLaunchService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNLaunchService.h; sourceTree = "<group>"; };
+		28B092832193071300DAC7F7 /* YUNLaunchService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNLaunchService.m; sourceTree = "<group>"; };
+		28B092852193079500DAC7F7 /* YUNAppStateServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNAppStateServices.h; sourceTree = "<group>"; };
+		28B092862193079500DAC7F7 /* YUNAppStateServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNAppStateServices.m; sourceTree = "<group>"; };
+		28B0928821930ED000DAC7F7 /* YUNAppDelegateServicesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNAppDelegateServicesManager.h; sourceTree = "<group>"; };
+		28B0928921930ED000DAC7F7 /* YUNAppDelegateServicesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNAppDelegateServicesManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +65,38 @@
 		28B092692192EF8C00DAC7F7 /* LightAppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				28B0926A2192EF8C00DAC7F7 /* AppDelegate.h */,
-				28B0926B2192EF8C00DAC7F7 /* AppDelegate.m */,
-				28B0926D2192EF8C00DAC7F7 /* ViewController.h */,
-				28B0926E2192EF8C00DAC7F7 /* ViewController.m */,
-				28B092702192EF8C00DAC7F7 /* Main.storyboard */,
+				28B09280219306B000DAC7F7 /* AppDelegate */,
+				28B0926D2192EF8C00DAC7F7 /* RootViewController.h */,
+				28B0926E2192EF8C00DAC7F7 /* RootViewController.m */,
 				28B092732192EF8D00DAC7F7 /* Assets.xcassets */,
 				28B092752192EF8D00DAC7F7 /* LaunchScreen.storyboard */,
 				28B092782192EF8D00DAC7F7 /* Info.plist */,
 				28B092792192EF8D00DAC7F7 /* main.m */,
 			);
 			path = LightAppDelegate;
+			sourceTree = "<group>";
+		};
+		28B09280219306B000DAC7F7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				28B09281219306E800DAC7F7 /* Services */,
+				28B0926A2192EF8C00DAC7F7 /* YUNAppDelegate.h */,
+				28B0926B2192EF8C00DAC7F7 /* YUNAppDelegate.m */,
+				28B0928821930ED000DAC7F7 /* YUNAppDelegateServicesManager.h */,
+				28B0928921930ED000DAC7F7 /* YUNAppDelegateServicesManager.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		28B09281219306E800DAC7F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				28B092822193071300DAC7F7 /* YUNLaunchService.h */,
+				28B092832193071300DAC7F7 /* YUNLaunchService.m */,
+				28B092852193079500DAC7F7 /* YUNAppStateServices.h */,
+				28B092862193079500DAC7F7 /* YUNAppStateServices.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +158,6 @@
 			files = (
 				28B092772192EF8D00DAC7F7 /* LaunchScreen.storyboard in Resources */,
 				28B092742192EF8D00DAC7F7 /* Assets.xcassets in Resources */,
-				28B092722192EF8C00DAC7F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B0926F2192EF8C00DAC7F7 /* ViewController.m in Sources */,
+				28B092872193079500DAC7F7 /* YUNAppStateServices.m in Sources */,
+				28B0928A21930ED000DAC7F7 /* YUNAppDelegateServicesManager.m in Sources */,
+				28B0926F2192EF8C00DAC7F7 /* RootViewController.m in Sources */,
+				28B092842193071300DAC7F7 /* YUNLaunchService.m in Sources */,
 				28B0927A2192EF8D00DAC7F7 /* main.m in Sources */,
-				28B0926C2192EF8C00DAC7F7 /* AppDelegate.m in Sources */,
+				28B0926C2192EF8C00DAC7F7 /* YUNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28B092702192EF8C00DAC7F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28B092712192EF8C00DAC7F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28B092752192EF8D00DAC7F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
