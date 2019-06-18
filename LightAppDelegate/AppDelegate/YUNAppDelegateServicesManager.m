@@ -116,6 +116,7 @@
                   Please check the return value type and arguments type.",
                   NSStringFromSelector(anInvocation.selector), obj.serviceName, obj);
         
+        // 这里拷贝我是这样理解的，因为可能多个service都需要执行 didFinishLaunchingWithOptions，那应该不能一直用同一个NSInvocation对象
         // copy the invokation
         NSInvocation *invok = [NSInvocation invocationWithMethodSignature:signature];
         invok.selector = anInvocation.selector;
